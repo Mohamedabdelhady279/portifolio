@@ -1,2 +1,6 @@
 welcome to my portfolio
-"Credit to the original creator: Soumyajit4419
+
+
+Designed and Developed by soumyajit4419
+
+
