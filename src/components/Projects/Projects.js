@@ -8,6 +8,7 @@ import currencyconverter from "../../Assets/Projects/currencyconverter.png";
 import goodfood from "../../Assets/Projects/goodfood.png";
 import massenger from "../../Assets/Projects/massenger.png";
 import shiloh from "../../Assets/Projects/shiloh.png";
+import Resturant from "../../Assets/Projects/Resturant.png";
 
 function Projects() {
   return (
@@ -31,6 +32,20 @@ function Projects() {
               demoLink="https://haven-furnish.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Resturant}
+              isBlog={false}
+              title="Restaurant Food"
+              description="My project is a simple website for a restaurant built with Next.js ."
+              ghLink="https://github.com/Mohamedabdelhady279/Restaurant-food"
+              demoLink="https://restaurant-food-nine.vercel.app/"
+            />
+          </Col>
+
+
+
 
           <Col md={4} className="project-card">
             <ProjectCard
