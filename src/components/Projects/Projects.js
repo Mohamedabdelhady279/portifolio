@@ -9,6 +9,7 @@ import goodfood from "../../Assets/Projects/goodfood.png";
 import massenger from "../../Assets/Projects/massenger.png";
 import shiloh from "../../Assets/Projects/shiloh.png";
 import Resturant from "../../Assets/Projects/Resturant.png";
+import weather from "../../Assets/Projects/weather.png";
 
 function Projects() {
   return (
@@ -82,12 +83,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shiloh}
+              imgPath={weather}
               isBlog={false}
-              title="Shiloh-Creative"
-              description="build marketing websites that help you sell on autopilot."
-              ghLink="https://github.com/Mohamedabdelhady279/Shiloh-Creative"
-              demoLink="https://shiloh-reative.vercel.app/"
+              title="Weather-App"
+              description="A simple weather app that displays temperature, wind, and other weather details accurately and easily."
+              ghLink="https://github.com/Mohamedabdelhady279/Weather-app"
+              demoLink="https://weather-app-gold-psi.vercel.app/"
             />
           </Col>
 
